@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.5.2.0" runtimeid="3.5.20.30" libversion="4.5.0.0" compiler="3.5.20.30" lmm="3.5.20.30" profile="CODESYS V3.5 SP20 Patch 3+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="pusher_SFC" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="FIO">
+        <Node name="FIO_COUNTER_LARGE" type="T_INT" access="ReadWrite" />
+        <Node name="FIO_COUNTER_SMALL" type="T_INT" access="ReadWrite" />
+        <Node name="FIO_GREEN_LIGHT" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_MOTOR" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_PUSHER" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_PUSHER_BACK" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_PUSHER_FRONT" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_RED_LIGHT" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_RESET" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_RESET_ACT" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_SENSOR_LARGE" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_SENSOR_SMALL" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_START" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_STOP" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_YELLOW_LIGHT" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>

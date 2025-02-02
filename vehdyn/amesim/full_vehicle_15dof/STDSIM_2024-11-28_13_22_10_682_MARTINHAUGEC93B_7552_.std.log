@@ -1,0 +1,46 @@
+
+STDOUT: Instantiating a system with 39 unknowns.
+STDOUT: Simcenter Amesim version: 2020.1 (7046573).
+STDOUT: Initializing model for simulation...
+STDOUT: Number of points read from file $AME/libdv/data/kinematics/TradeConv_Front_wheelbase.dat :
+STDOUT: 21 x
+STDOUT: 15 x
+STDOUT: 1
+STDOUT: Number of points read from file $AME/libdv/data/kinematics/TradeConv_Front_halftrack.dat :
+STDOUT: 21 x
+STDOUT: 15 x
+STDOUT: 1
+STDOUT: Number of points read from file $AME/libdv/data/kinematics/TradeConv_Front_toe.dat :
+STDOUT: 21 x
+STDOUT: 15 x
+STDOUT: 1
+STDOUT: Number of points read from file $AME/libdv/data/kinematics/TradeConv_Front_camber.dat :
+STDOUT: 21 x
+STDOUT: 15 x
+STDOUT: 1
+STDOUT: Number of points read from file $AME/libdv/data/kinematics/TradeConv_Front_selfrotating.dat :
+STDOUT: 21 x
+STDOUT: 15 x
+STDOUT: 1
+STDOUT: Number of points read from file $AME/libdv/data/kinematics/TradeConv_Rear_wheelbase.dat :
+STDOUT: 21 x
+STDOUT: 21
+STDOUT: Number of points read from file $AME/libdv/data/kinematics/TradeConv_Rear_halftrack.dat :
+STDOUT: 21 x
+STDOUT: 21
+STDOUT: Number of points read from file $AME/libdv/data/kinematics/TradeConv_Rear_toe.dat :
+STDOUT: 21 x
+STDOUT: 21
+STDOUT: Number of points read from file $AME/libdv/data/kinematics/TradeConv_Rear_camber.dat :
+STDOUT: 21 x
+STDOUT: 21
+STDOUT: Number of points read from file $AME/libdv/data/kinematics/TradeConv_Rear_selfrotating.dat :
+STDOUT: 21 x
+STDOUT: 21
+STDOUT: Requesting amesim_runtime license ...
+STDOUT: got the license for amesim_runtime, continuing
+STDOUT: Requesting vehicle_dynamics license ...
+STDOUT: got the license for vehicle_dynamics, continuing
+STDOUT: Start model simulation...
+STDOUT: Total CPU time: 3.82813 seconds.
+SUCCESS MESSAGE: Simcenter Amesim model 15dof_full_vehicle terminated normally.
